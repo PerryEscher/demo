@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perry Escher</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header Start -->
+  <header>
+    <h1>Perry Escher</h1>
+    <nav>
+      <ul id="navmenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Service</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <i class="fas fa-bars" id="navigation" onclick="toggleNav()"></i>
+    </nav>
+  </header>
+  <!-- Header End -->
+  <!-- Home Start -->
+  <div id="home">
+    <div class="home-container">
+      <div class="home-text">
+        <p>Cybersecurity Specialist</p>
+        <h1>Hi I'm <span>Perry Escher</span><br> From Earth</h1>
+      </div>
+    </div>
+  </div>
+  <!-- Home End -->
+  <!-- About Start -->
+  <div id="about">
+    <div class="container">
+      <h1 class="sub-title">About Me</h1>
+      <p>
+        Perry Escher is an experienced cybersecurity expert with a strong background in computer science and a passion for technology. Perry's career spans several years in the field, during which time they have gained extensive knowledge and expertise in developing and implementing effective security measures for a diverse range of organizations.
+        <br>
+        Throughout their career, Perry has served as a lead security analyst at a top cybersecurity firm, providing expert advice and guidance to Fortune 500 companies. Perry has a deep understanding of the threat landscape and is skilled in identifying and mitigating potential risks before they can cause harm.
+        <br>
+        In addition to their work in the field, Perry is a sought-after speaker and thought leader in the industry. They have authored numerous articles and whitepapers on cybersecurity best practices and are committed to mentoring young professionals and promoting diversity in the field.
+        <br>
+        With a dedication to excellence and a commitment to protecting organizations from cyber threats, Perry is a true leader in the cybersecurity industry. Their expertise and experience have made a significant impact on the field, and Perry continues to be a valuable asset to clients and colleagues alike.
+        <br>
+        With a strong commitment to excellence and a deep understanding of the complex challenges facing organizations today, Perry Escher is a trusted partner and advisor for businesses looking to protect themselves from cyber threats.
+      </p>
+      <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+        <p class="tab-links" onclick="opentab('education')">Education</p>
+      </div>
+      <div class="tab-contents active-tab" id="skills">
+        <ul>
+          <li><span>Network Security</span><br>The practice of protecting computer networks and their components from unauthorized access, use, disclosure, disruption, modification, or destruction.</li>
+          <li><span>Vulnerability Assessment</span><br>The process of identifying and assessing vulnerabilities in computer systems, networks, and applications to determine the likelihood of a security breach.</li>
+          <li><span>Penetration Testing</span><br>A simulated attack on a computer system, network, or application to evaluate the security of the system and identify vulnerabilities that could be exploited by real attackers.</li>
+        </ul>
+      </div>
+      <div class="tab-contents" id="experience">
+        <ul>
+          <li><span>2023-Current</span><br>Cybersecurity Analyst at XYZ Corporation.</li>
+          <li><span>2021-2023</span><br>Information Security Officer at ABC Bank.</li>
+          <li><span>2019-2021</span><br>Security Operations Center (SOC) Analyst at DEF Corporation.</li>
+          <li><span>2017-2019</span><br>Cybersecurity Consultant at GHI Consulting.</li>
+          <li><span>2015-2017</span><br>Information Security Analyst at JKL Corporation.</li>
+        </ul>
+      </div>
+      <div class="tab-contents" id="education">
+        <ul>
+          <li><span>2021</span><br>Master of Science in Cybersecurity from XYZ University</li>
+          <li><span>2019</span><br>Bachelor of Science in Computer Science with a concentration in Cybersecurity from ABC College</li>
+          <li><span>2018</span><br>Certified Information Systems Security Professional (CISSP) certification from ISC2</li>
+          <li><span>2017</span><br>Certified Ethical Hacker (CEH) certification from EC-Council</li>
+          <li><span>2015</span><br>Master of Business Administration (MBA) with a concentration in Cybersecurity Management from DEF University</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- About End -->
+  <!-- Services Start -->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-shield-alt"></i>
+            <h2>Security Assessment and Consultation</h2>
+            <p>In today's digital landscape, cybersecurity threats are increasingly complex and sophisticated. A cybersecurity expert can provide a comprehensive security assessment and consultation to identify potential vulnerabilities and recommend best practices to improve your product's security posture. This can include a review of your existing security controls, data protection and privacy compliance, and other customized recommendations to meet your unique security needs. By partnering with a cybersecurity expert, you can take proactive steps to mitigate potential threats and protect your digital assets.</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fas fa-bomb"></i>
+            <h2>Threat Modeling</h2>
+            <p>Threat modeling is a critical part of any effective cybersecurity strategy. By identifying potential threats to your digital product, a cybersecurity expert can help you prioritize security efforts and develop a plan to mitigate those threats. This can include a detailed risk assessment, recommendations for security controls and countermeasures, and customized guidance to help ensure your product is secure from potential attacks. With a comprehensive threat modeling approach, you can help protect your digital assets and minimize the risk of cyber attacks.</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Secure Code Review</h2>
+            <p>Code review is a fundamental part of ensuring the security of your digital products. A cybersecurity expert can perform a thorough review of your source code to identify potential vulnerabilities and recommend changes to improve the product's overall security posture. This can include an analysis of common security issues such as cross-site scripting (XSS) or SQL injection, as well as customized recommendations for secure coding practices and other best practices to help protect against potential threats. With a comprehensive code review approach, you can help ensure your digital products are secure from potential attacks.</p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  <!-- Services End -->
+  <!-- Work Start -->
+  <div id="project">
+    <div class="container">
+      <h1 class="sub-title">My Project</h1>
+      <div class="work-list">
+        <div class="work">
+          <!-- <img src="images/work-1.png"> -->
+          <img src="images/P2P-File-Share-App.jpg" alt="P2P File Share App Image">
+          <div class="layer">
+            <h3>P2P File Share App</h3>
+            <p>Share your files securely and easily with our P2P file share app. Transfer files directly between devices without the need for cloud storage or email. The app also allows you to share files with multiple users at once and provides a high level of encryption for added security. Download the app from the Play Store today and start sharing your files hassle-free!.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <!-- <img src="images/work-2.png"> -->
+          <img src="images/Messaging-App.png" alt="Messaging App Image">
+          <div class="layer">
+            <h3>Messaging App</h3>
+            <p>Stay in touch with your loved ones and chat with people from all over the globe with our messaging app. Send text messages, voice notes, and make voice and video calls with ease. The app also allows you to create groups and share files with friends and family. Download the app from the Play Store and start messaging today!</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <!-- <img src="images/work-3.png"> -->
+          <img src="images/Social-Media-App.jpg" alt="Social Media App Image">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>Connect with friends and meet new people from all around the world with our social media app. Share your experiences, interests, and memories through photos, videos, and messages. Discover new cultures and expand your horizons by connecting with people from different backgrounds. Download the app from the Play Store today and start your journey!</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  <!-- Work End -->
+  <!-- Contact Start -->
+  <div id="contact">
+    <div class="container">
+      <h1 class="sub-title">Contact Me</h1>
+      <div class="row">
+        <div class="contact-left">  
+          <p><i class="fa-sharp fa-solid fa-paper-plane"></i>contact@example.example</p>
+          <p><i class="fas fa-phone-square-alt"></i>+0123456789</p>
+          <div class="social-icons">
+            <a href="https://facebook.com/zuck" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/elonmusk" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/jeffweiner08" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="images/cyber-security-analyst-CV.pdf" dowmload class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Send</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contact End -->
+  <iframe src="https://myvirtualcompany.github.io/Company/©.html" frameborder="0" width="100%"></iframe>
+  <script src="script.js"></script>
+</body>
+</html>
